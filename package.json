@@ -11,5 +11,9 @@
   },
   "keywords": [],
   "author": "omega5300",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stack-analyze/create-dimensions.git"
+  },
   "license": "MIT"
 }
