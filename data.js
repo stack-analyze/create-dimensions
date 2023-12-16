@@ -55,14 +55,16 @@ body {
 const vueApp = `const { defineComponent } = require('vue')
 
 module.exports = defineComponent({
-	template: '<router-view></router-view>'
+	template: \u0060<router-view></router-view>\u0060
 })
 `
 
 const indexPage = `const { defineComponent } = require('vue')
 
 module.exports = defineComponent({
-	template: '<main><h1>Hello world</h1></main>'
+	template: \u0060<main>
+    <h1>Hello world</h1>
+  </main>\u0060
 })
 `
 
