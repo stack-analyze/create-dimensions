@@ -44,6 +44,14 @@ const htmlTemplate = `<!DOCTYPE html>
   <body></body>
 </html>`
 
+const cssTemplate = `* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}`
+
 const vueApp = `const { defineComponent } = require('vue')
 
 module.exports = defineComponent({
@@ -102,6 +110,7 @@ copyright: ${dir}
 
 module.exports = {
   electronData,
+  cssTemplate,
   htmlTemplate,
   buildTemplate,
   vueCoreTemplate,

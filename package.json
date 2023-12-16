@@ -1,6 +1,6 @@
 {
   "name": "create-dimensions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "template generator for the third mixtreria album dimensions",
   "main": "cli.js",
   "bin": {
