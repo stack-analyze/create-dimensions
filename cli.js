@@ -60,7 +60,7 @@ const createProject = async () => {
     await writeFile('./app/index.html', htmlTemplate)
     await writeFile('./app/renderer.js', vueCoreTemplate)
     await writeFile('./app/app.js', vueApp)
-    await writeFile('./app/styles/styles.css', cssTemplate)
+    await writeFile('./app/styles/main.css', cssTemplate)
     await writeFile('./app/router.js', vueRouterTemplate)
     await writeFile('./app/pages/Home.js', indexPage)
     

@@ -16,7 +16,7 @@ function createWindow () {
     }
   })
 
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('./app/index.html')
 }
 
 app.whenReady().then(() => {
@@ -37,7 +37,7 @@ const htmlTemplate = `<!DOCTYPE html>
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
-    <link href="./styles.css" rel="stylesheet">
+    <link href="./styles/main.css" rel="stylesheet">
     <script src="./renderer.js" defer></script>
   </head>
   
